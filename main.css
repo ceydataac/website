@@ -1,0 +1,241 @@
+.fSlider {
+    height: 1000px;
+    width: 500px;
+    justify-content: center;
+}
+
+.gif {
+    height: 1076px;
+    width: 2500px;
+    justify-content: center;
+}
+
+
+.frame {
+
+    border: none;
+    border-top: 10px solid #F9F9F9;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.qmark {
+
+    color: antiquewhite;
+    position: relative;
+    top: -50px;
+    font-size: 40px;
+    border: 10px solid #1b3f5c;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-family: 'Odibee Sans', cursive;
+    font-size: large;
+
+}
+
+
+h1 {
+    color: aliceblue;
+    background-color: blue;
+    height: 500px;
+    display: flex;
+    margin-top: 1000px;
+    margin-bottom: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+h2 {
+    color: aliceblue;
+    background-color: rgb(113, 113, 175);
+    height: 500px;
+    display: flex;
+    margin-top: 1000px;
+    margin-bottom: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.aboutH3 {
+    color: #F9F9F9;
+    text-decoration-color: antiquewhite;
+    font-family: 'Odibee Sans', cursive;
+
+}
+
+.textAbout {
+    color: rgb(157, 165, 172);
+    text-shadow: #1b3f5c;
+    background: rgba(21, 68, 255, 0.1);
+    height: 250px;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: none;
+    border-radius: 12px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: rgb(90, 46, 46);
+    padding: 40px;
+}
+
+body {
+    background: url("https://i.giphy.com/media/26tn33aiTi1jkl6H6/giphy.webp") center;
+    background-size: 2000px;
+    overflow-x: hidden;
+    font-family: 'Caveat', cursive;
+    font-family: 'Nova Script', cursive;
+    object-fit: cover;
+    height: 1080px;
+}
+
+.github {
+    color: beige;
+
+}
+
+header {
+    height: 100vh;
+}
+
+.person {
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: antiquewhite;
+    size: 100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background: rgba(63, 63, 62, 0.6);
+    object-fit: cover;
+    height: 1080px;
+
+}
+
+
+.aboutBackground {
+    background: url("https://media0.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy.gif?cid=ecf05e470faczcn5ytw02qy2djanl5670uothm31u97npbij&rid=giphy.gif&ct=g") center;
+    background-size: 2000px;
+    overflow-x: hidden;
+    font-family: 'Nova Script', cursive;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.insta {
+
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    min-width: 1070px;
+    display: block;
+    margin-top: 100px;
+    font-family: 'Caveat', cursive;
+}
+
+.instaAbout {
+    position: absolute;
+    min-width: 900px;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(245, 241, 127, 0.8);
+    color: rgb(103, 105, 107);
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    display: block;
+    border-radius: 15px;
+}
+
+
+.button1 {
+    margin-top: 100px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    background-size: 2000px;
+    color: rgb(216, 206, 216);
+    border-radius: 15px;
+}
+
+.box {
+    position: absolute;
+    top: 30px;
+    left: 5%
+}
+
+.card {
+    font-family: 'Nova Script', cursive;
+    text-align: center;
+    top: 100px;
+    left: 200px;
+}
+
+.long {
+    font-family: 'Nova Script', cursive;
+    text-align: center;
+    top: 10px;
+    right: 600px;
+}
+
+.card-text {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.experiences {
+    margin-top: 150px;
+    margin-left: 700px;
+    margin-right: 80px;
+    margin-bottom: 150px;
+    text-align: center;
+    background-color: rgba(90, 135, 234, 0.4);
+    font-size: 15px;
+    border-radius: 12px;
+    background-size: 2000px;
+    color: rgb(216, 206, 216);
+    height: 600px;
+
+}
+
+.lovedo {
+    display: flex;
+    justify-content: center;
+    margin-top: 800px;
+    height: 1000px;
+}
+
+.cards {
+    align-items: center;
+    border-radius: 15px;
+    padding: 45px;
+    background-color: #585756;
+    margin-top:180px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    height: 220px;
+    text-align: center;
+}
+
+

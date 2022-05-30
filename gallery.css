@@ -1,0 +1,137 @@
+body{
+    background: url("https://i.giphy.com/media/26tn33aiTi1jkl6H6/giphy.webp") center;
+    background-repeat: repeat;
+    background-size: 1080px;
+    height: 1080px;
+    overflow-x: hidden;
+    font-family: 'Caveat', cursive;
+font-family: 'Nova Script', cursive;
+}
+header {
+    height: 100vh;
+}
+
+
+.gif{
+    height: 1076px;
+    width: 2500px;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-family: 'Odibee Sans', cursive;
+    font-size: large;
+}
+h1{
+    color: aliceblue;
+    background-color: blue;
+    height: 500px;
+    display: flex;
+    margin-top: 1000px;
+    margin-bottom: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.github{
+    color: beige;
+    
+}
+#index-gallery p{
+   grid-area: img1;
+}
+
+#index-gallery h2{
+    grid-area: img1;
+    
+ }
+
+#index-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-template-areas:
+    "gallery-p gallery-p gallery-p gallery-p"
+    "gallery-h2 gallery-h2 gallery-h2 gallery-h2"
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8";
+}
+
+#index-gallery .gallery-img{
+    width: 100% ;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+#index-gallery .img1{
+    grid-area: img1;
+
+    height: 400px;
+}
+
+#index-gallery .img2{
+    grid-area: img2;
+   
+    height: 400px;
+}
+
+#index-gallery .img3{
+    grid-area: img3;
+   
+    height: 200px;
+}
+
+#index-gallery .img4{
+    grid-area: img4;
+   
+    height: 500px;
+}
+
+#index-gallery .img5{
+    grid-area: img5;
+    height: 500px;
+}
+
+#index-gallery .img6{
+    grid-area: img6;
+    height: 500px;
+}
+
+#index-gallery .img7{
+    grid-area: img7;
+    height: 500px;
+}
+
+#index-gallery .img8{
+    grid-area: img8;
+    height: 500px;
+}
+
+#index-gallery .img19{
+    grid-area: img19;
+    height: 500px;
+}
+
+#index-gallery .img9{
+    grid-area: img9;
+    height: 500px;
+}
+#index-gallery .img10{
+    grid-area: img10;
+    height: 500px;
+}
+
+#index-gallery .img17{
+    grid-area: img17;
+    height: 500px;
+}
+
+
